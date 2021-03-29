@@ -2,10 +2,10 @@ import React from 'react';
 import * as S from './style';
 import { BorderButtonProps } from '@atoms/BorderButton/types';
 
-const BorderButton = ({ children, className }: BorderButtonProps) => {
+const BorderButton = ({ children, className, white }: BorderButtonProps) => {
   return (
     <S.Wrapper className={className}>
-      <S.Button>{children}</S.Button>
+      <S.Button isWhite={white}>{children}</S.Button>
     </S.Wrapper>
   );
 };

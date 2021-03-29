@@ -2,15 +2,7 @@ import styled, { css } from 'styled-components';
 import PriceTextBody from '@atoms/PriceText';
 
 const colorWrapper = css`
-  background: linear-gradient(
-    to bottom right,
-    ${({ theme }) => theme.colors.gradient.blue[0]} 0%,
-    ${({ theme }) => theme.colors.gradient.blue[1]} 100%
-  );
-  &>* {
-    filter: brightness(100);
-  }
-  color: white;
+  ${({ theme }) => theme.background.color}
   padding: 4em 2em 6em;
 `;
 

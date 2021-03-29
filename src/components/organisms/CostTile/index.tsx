@@ -12,7 +12,7 @@ const CostTile = ({ name, cost, sendUp, storage, users, colored }: CostTileProps
       <S.Name>{name}</S.Name>
       <S.PriceText>{cost}</S.PriceText>
       <BorderedList>{list}</BorderedList>
-      <BorderButton>learn more</BorderButton>
+      <BorderButton white={colored}>learn more</BorderButton>
     </S.Wrapper>
   );
 };

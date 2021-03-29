@@ -15,6 +15,10 @@ declare module 'styled-components' { // Add own themes (remember to copy it to t
           '#696fdd',
         ]
       }
+    },
+    background: {
+      transparent: any,
+      color: any,
     }
   }
 }

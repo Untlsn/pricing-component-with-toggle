@@ -1,4 +1,5 @@
 import type { DefaultTheme } from 'styled-components';
+import { css } from 'styled-components';
 
 const theme: DefaultTheme = { // Add own themes (remember to copy it to style.d.ts)
   colors: {
@@ -14,6 +15,20 @@ const theme: DefaultTheme = { // Add own themes (remember to copy it to style.d.
         '#696fdd',
       ]
     }
+  },
+  background: {
+    transparent: css`
+      background: transparent;
+      color: inherit;
+    `,
+    color: css`
+      background: linear-gradient(
+        to bottom right,
+        ${({ theme }) => theme.colors.gradient.blue[0]} 0%,
+        ${({ theme }) => theme.colors.gradient.blue[1]} 100%
+      );
+      color: white;
+    `
   }
 };
 

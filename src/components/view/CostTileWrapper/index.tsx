@@ -2,8 +2,8 @@ import React from 'react';
 import * as S from './style';
 import CostTile from '@organisms/CostTile';
 
-const CostTileWrapper = ({ isAnnually }: { isAnnually: boolean }) => {
-  const costsType = isAnnually ? 'annually' : 'monthly';
+const CostTileWrapper = ({ isMonthly }: { isMonthly: boolean }) => {
+  const costsType = isMonthly ? 'monthly' : 'annually';
 
   const costs = {
     monthly: [
