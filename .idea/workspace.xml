@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Init style">
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/BorderButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/BorderButton/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/BorderButton/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/NamedSwitch/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/NamedSwitch/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/NamedSwitch/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/PriceText/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/PriceText/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/BorderedList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/BorderedList/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/PricingSwitcher/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/PricingSwitcher/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/CostTile/helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/CostTile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/CostTile/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/CostTile/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/view/CostTileWrapper/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/view/CostTileWrapper/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/style/Global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/Global.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/style.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +34,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -104,6 +120,7 @@
       <workItem from="1616661074034" duration="3033000" />
       <workItem from="1616683841806" duration="7822000" />
       <workItem from="1616951587786" duration="371000" />
+      <workItem from="1617004179662" duration="6511000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>

@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 700;
     margin: 0;
     min-height: 100vh;
-    color: ${({ theme }) => theme.colors.black};
+    color: ${({ theme }) => theme.colors.darkGrayishBlue};
   }
   html {
     font-size: 15px;
